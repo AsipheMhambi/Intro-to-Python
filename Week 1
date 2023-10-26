@@ -1,0 +1,42 @@
+# Intro to Python 
+Python is a widely-used programming language known for its simplicity and versatility. 
+It features a clean and readable syntax, making it ideal for beginners. 
+Python is an interpreted language, so there's no need for compilation. 
+It is employed in diverse domains, including web development, data analysis, and machine learning. 
+Python has an active open-source community and a vast standard library. 
+It uses dynamic typing and enforces code structure through indentation. 
+Python offers an interactive mode for testing. 
+Installation is required, and you can use various IDEs. 
+Start with basic programs and gradually explore its features and libraries. 
+Python is an excellent choice for both beginners and experienced programmers due to its popularity and extensive resources.
+
+## Variables
+Python variables are named containers for storing data. 
+They follow specific naming rules, are case-sensitive, and must start with a letter or an underscore. 
+Variables are assigned values using the = operator, and Python infers their data types. 
+Python is dynamically typed, allowing variables to change types during runtime. 
+You can reassign values to variables, and the print() function is used to display variable values. 
+Variables are essential for data storage and manipulation in Python.
+
+### Data types
+Python supports a variety of data types for storing different kinds of information. 
+Common data types include integers (int), floating-point numbers (float), complex numbers, strings (str), lists, tuples, dictionaries (dict), sets, Booleans (bool), and a special None type. 
+There are also data types for binary data and date/time information. 
+Understanding data types is crucial for performing operations and making decisions in Python, and you can check and convert data types as needed using built-in functions.
+
+#### Operators
+Python offers a variety of operators for performing operations on variables and values. 
+These include arithmetic operators (+, -, *, /, %, **, //), comparison operators (==, !=, <, >, <=, >=), logical operators (and, or, not), assignment operators (=, +=, -=, *=, /=), identity operators (is, is not), membership operators (in, not in), and bitwise operators (&, |, ^, ~, <<, >>). 
+Operators are essential for calculations, comparisons, and program control. 
+Understanding their use and precedence is crucial for effective Python programming.
+
+##### Banking App
+BankAccount Class:  ==The BankAccount class is used to represent a bank account.
+It has attributes for the account number, account holder's name, and balance.
+Methods include deposit, withdraw, and check_balance for performing transactions and checking the balance.
+Menu-Driven Interface:  ==The program provides a text-based menu for users to interact with their bank account.
+Options include depositing money, withdrawing money, checking the balance, and exiting the app.
+Deposit and Withdrawal:  ==The deposit method allows users to add funds to their account, with validation for non-negative amounts.
+The withdraw method allows users to withdraw funds, with validation for available balance and non-negative amounts.
+Checking Balance:  ==Users can check their account balance using the check_balance method.
+Exit Option: ==The menu includes an option to exit the banking app, ending the program.
