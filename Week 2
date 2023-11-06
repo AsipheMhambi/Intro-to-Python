@@ -1,0 +1,57 @@
+#Control Flow
+Control flow in Python determines the order in which statements are executed. 
+Key concepts and constructs include:===
+Conditional Statements (if, elif, else) for decision-making.
+Loops (for and while) for repetitive tasks.
+Loop control statements (break, continue, pass) for modifying loop behavior.
+Exception handling (try, except, else, finally) for error handling.
+Function calls (def) for code organization and reusability.
+Modules and packages for code organization and reuse.
+Conditional expressions (ternary operator) for concise condition-based assignments.
+Use of elif for multiple conditions and meaningful indentation.
+
+##Python Functions
+Function Definition: Functions are defined using the def keyword, a name, and parentheses.
+Function Call: To execute a function, call it by name with parentheses and provide arguments if needed.
+Parameters and Arguments: Parameters are placeholders in the function definition, and arguments are the values passed when calling the function.
+Return Statement: Functions can return values using the return statement. Multiple values can be returned as a tuple.
+Default Arguments: You can assign default values to function parameters, making them optional.
+Variable Scope: Variables have local scope by default within a function. Use the global keyword for global variables.
+Docstrings: Document functions using triple-quoted strings at the beginning of the function definition.
+Lambda Functions: Lambda functions are small, anonymous functions often used for simple operations.
+Function Recursion: Functions can call themselves, useful for solving problems by breaking them into smaller subproblems.
+Function Overloading: Python doesn't support function overloading like some languages.
+Achieve similar behavior with default arguments or variable-length arguments.
+Decorators: Functions that modify or enhance the behavior of other functions, used for tasks like logging or authentication.
+Function Best Practices: Give functions clear names, keep them focused, use comments and docstrings, and follow PEP 8 style guidelines.
+
+### Introduction to Modules
+Module Definition: A module is a Python file containing code, such as variables, functions, and classes.
+Importing Modules: Use the import keyword to bring in the functionality of a module into your code.
+Using Module Contents: Access functions, variables, and classes in a module using dot notation.
+Standard Library Modules: Python includes a vast standard library of modules that cover various functionalities.
+Creating Your Own Modules: Write your Python code in a .py file, and it becomes a module that can be imported into other scripts.
+Module Aliases: Assign aliases to module names for more concise usage.
+Importing Specific Items: Import only the specific functions, variables, or classes you need from a module.
+Module Documentation: Include a docstring at the top of your module to describe its purpose and contents.
+Package Structure: Modules can be organized into packages, which are directories containing multiple modules.
+Relative Imports: Use relative imports to import modules or packages from the same or parent directories.
+Special Module Attributes: Modules can have special attributes like __name__ for identifying whether the module is being run directly or imported.
+Best Practices: Keep modules small and focused, use meaningful names, document your code, and follow PEP 8 style guidelines.
+
+#### Regular Expressions
+Regular Expressions:==Regular expressions are patterns used for text pattern matching and manipulation.
+The re Module:==Python's re module provides functions and methods for working with regular expressions.
+Creating Regular Expressions:==Regular expressions are constructed using special characters and metacharacters to define patterns.
+Basic Matching:==re.search() finds the first occurrence of a pattern in a string and returns a match object.
+Anchors:==Anchors like ^ and $ specify where in the text a pattern should match.
+Character Classes:==Square brackets [] define sets of characters to match.
+Quantifiers:==Quantifiers like *, +, and ? specify the repetition of the preceding element.
+Escape Sequences:==Use \ to escape special characters for literal matching.
+Groups and Capturing:==Parentheses () create groups and capture matched text.
+Non-Capturing Groups:==(?:...) creates non-capturing groups for grouping without capturing.
+Metacharacters:==Metacharacters like | and \b allow for complex pattern matching.
+Flags:==Flags like re.IGNORECASE enable case-insensitive matching.
+Replacement:==re.sub() replaces matched patterns in text with a specified string.
+Validation and Sanitization:==Regular expressions are useful for data validation and sanitization.
+Best Practices:==Regular expressions should be well-tested and understood, and raw strings are often used to avoid unintended escape sequences.
