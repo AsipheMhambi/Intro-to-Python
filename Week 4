@@ -1,0 +1,52 @@
+#Inheritance and Private Variables
+Inheritance: Subclasses inherit attributes and methods from a superclass. 
+This allows for the creation of specialized classes that reuse and potentially override functionality from the base class.
+Private Variables: Variables prefixed with a double underscore (__) are considered private. 
+They can only be accessed within the class that defines them, and their names are name-mangled to avoid accidental name clashes.
+Inheritance and Private Variables: Private variables are not truly private in the sense that their names are name-mangled to prevent accidental clashes in subclasses. 
+The name-mangled form is _classname__variable. 
+Subclasses can still access these variables, but it's generally recommended to use public methods for accessing or modifying attributes to maintain encapsulation.
+
+##Iterators, Generators, and more
+Iterators: An iterator is an object that represents a stream of data and can be iterated over.
+It must implement __iter__ and __next__ methods.
+iter() function obtains an iterator, and next() function fetches the next item from an iterator.
+Generators: Generators are a special type of iterator created using functions with the yield statement.
+They produce values on-the-fly and save the state between successive calls.
+More memory-efficient than creating a list, especially for large datasets.
+yield Statement: Used in generator functions to produce a series of values for iteration.
+Pauses the function's state until the next value is requested.
+itertools Module: Provides a collection of tools for working with iterators efficiently.
+Includes functions like count(), cycle(), chain(), and zip_longest().
+
+###Dates and Times, Data Compression, Output Formatting, and more!
+datetime module provides classes for working with dates and times.
+datetime.now() gets the current date and time.
+strftime() method formats a datetime object as a string.
+timedelta class is used for time differences and additions.
+Data Compression:
+Python has modules like gzip, zipfile, and bz2 for data compression.
+gzip module can compress and decompress files.
+Output Formatting:
+String formatting can be done using format() method or f-strings (Python 3.6+).
+Placeholders like {} in a string are replaced with values.
+Regular Expressions (using re module):
+re module provides support for regular expressions.
+findall() method retrieves all occurrences of a pattern in a string.
+File Handling:
+Python provides file handling with open() function.
+with statement ensures proper file closure.
+
+####Logging, Managing packages with pip, and Floating point Arithmetic
+Logging in Python:
+Python's logging module provides a flexible way to emit log messages from programs.
+Configurable logging levels include DEBUG, INFO, WARNING, ERROR, and CRITICAL.
+Basic configuration is done using basicConfig, allowing customization of log format and level.
+Managing Packages with pip:
+pip is the standard package installer for Python.
+Common commands include install, uninstall, list, and upgrade.
+It simplifies the process of installing, upgrading, and managing Python packages and their dependencies.
+Floating-Point Arithmetic:
+Floating-point numbers in Python are represented as binary fractions, leading to precision limitations.
+Small discrepancies may occur in floating-point arithmetic due to binary representation.
+For more precise decimal arithmetic, use the decimal module.
